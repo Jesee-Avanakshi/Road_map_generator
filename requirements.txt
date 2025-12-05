@@ -1,7 +1,17 @@
-streamlit
-langchain
-langchain-community
-langchain-core
-langchain-google-genai
-google-generativeai
-python-dotenv
+# streamlit
+# langchain
+# langchain-community
+# langchain-core
+# langchain-google-genai
+# google-generativeai
+# python-dotenv
+
+streamlit==1.32.0
+python-dotenv==1.0.1
+
+langchain==0.3.0
+langchain-core==0.3.0
+langchain-community==0.3.0
+
+google-generativeai==0.7.2
+langchain-google-genai==0.3.0
