@@ -8,7 +8,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("🎯 AI-Powered Career Roadmap Generator")
+st.title("AI-Powered Career Roadmap Generator")
 st.write("Generate a personalized career roadmap based on your experience and goals.")
 
 
