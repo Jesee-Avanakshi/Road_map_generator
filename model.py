@@ -14,7 +14,10 @@ from langchain_core.output_parsers import StrOutputParser
 
 # Load API key
 load_dotenv()
-api_key = os.getenv("GOOGLE_API_KEY")
+local_key = os.getenv("GOOGLE_API_KEY")
+
+cloud_key = st.secrets.get("GOOGLE_API_KEY")
+api_key = cloud_key or local_key
 print(api_key)
 if not api_key:
     raise ValueError("API key not found")
